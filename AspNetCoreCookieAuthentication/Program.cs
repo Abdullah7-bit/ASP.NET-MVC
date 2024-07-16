@@ -17,14 +17,15 @@ builder.Services.AddAuthentication(CookieAuthenticationDefaults.AuthenticationSc
         options.LogoutPath = "/Account/Logout";
         options.AccessDeniedPath = "/Account/AccessDenied";
         options.ReturnUrlParameter = "ReutrnUrl";
-
-
     });
 
 //Identity DI
 builder.Services.AddIdentity<User, IdentityRole>()
     .AddEntityFrameworkStores<DataContext>()
     .AddDefaultTokenProviders();
+
+//builder.Services.AddIdentityServer()
+//    .AddApiAuthorization<User,DataContext>();
 
 var app = builder.Build();
 
@@ -42,8 +43,9 @@ app.UseStaticFiles();
 app.UseRouting();
 
 app.UseAuthorization();
+app.UseAuthentication();
 
-
+app.UseIdentityServer();
 app.MapControllerRoute(
     name: "default",
     pattern: "{controller=Home}/{action=Index}/{id?}");

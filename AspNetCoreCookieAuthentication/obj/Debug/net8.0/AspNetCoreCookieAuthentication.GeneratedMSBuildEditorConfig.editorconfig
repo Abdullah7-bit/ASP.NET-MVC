@@ -18,8 +18,20 @@ build_property.GenerateRazorMetadataSourceChecksumAttributes =
 build_property.MSBuildProjectDirectory = C:\Users\MYSQ\source\repos\AspNetCoreCookieAuthentication\AspNetCoreCookieAuthentication
 build_property._RazorSourceGeneratorDebug = 
 
+[C:/Users/MYSQ/source/repos/AspNetCoreCookieAuthentication/AspNetCoreCookieAuthentication/Views/Account/Login.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQWNjb3VudFxMb2dpbi5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/MYSQ/source/repos/AspNetCoreCookieAuthentication/AspNetCoreCookieAuthentication/Views/Account/Logout.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQWNjb3VudFxMb2dvdXQuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
 [C:/Users/MYSQ/source/repos/AspNetCoreCookieAuthentication/AspNetCoreCookieAuthentication/Views/Account/Register.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQWNjb3VudFxSZWdpc3Rlci5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/MYSQ/source/repos/AspNetCoreCookieAuthentication/AspNetCoreCookieAuthentication/Views/Account/RegisterConfirmation.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQWNjb3VudFxSZWdpc3RlckNvbmZpcm1hdGlvbi5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 
 
 [C:/Users/MYSQ/source/repos/AspNetCoreCookieAuthentication/AspNetCoreCookieAuthentication/Views/Home/Index.cshtml]

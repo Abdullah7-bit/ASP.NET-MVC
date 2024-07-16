@@ -1,0 +1,10 @@
+﻿<!-- Views/Account/Logout.cshtml -->
+@{
+    ViewData["Title"] = "Logout";
+}
+
+<h1>@ViewData["Title"]</h1>
+
+<form asp-action="Logout" asp-controller="Account" method="post">
+    <button type="submit" class="btn btn-primary">Logout</button>
+</form>
